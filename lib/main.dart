@@ -15,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home:  ResponsiveLayout(
-          mobileScreenLayout: MobileScreenLayout(),
-        webScreenLayout:  WebScreenLayout()),
+      home: ResponsiveLayout(
+        webScreenLayout: WebScreenLayout(),
+        mobileScreenLayout: MobileScreenLayout(),
+      ),
     );
   }
         }
